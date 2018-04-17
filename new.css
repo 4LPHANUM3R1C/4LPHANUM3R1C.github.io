@@ -1,0 +1,99 @@
+          body{
+          font-family: 'Poiret One', cursive;
+          color:white;
+          background: linear-gradient(-90deg, #fff, #000);
+          text-shadow:2px 2px #000;
+          }
+          nav{
+              font-size:48px;
+              color:white;
+              border:black;
+          }
+          .normal{
+              color: white !important;
+              text-decoration: none;
+              border:none;
+              padding: 0px;
+              background-image: none;
+          }
+          a{
+            color: #ffffff;
+            border: 2px solid white;
+            padding: 15px;
+            text-decoration: none
+          }
+          a:hover{
+            color: #ffffff;
+            border: 2px solid white;
+            padding: 15px;
+            background-image:url("https://cdn.dribbble.com/users/41276/screenshots/332290/animated-rainbow.gif");
+            text-decoration: none
+          }
+          header{
+            width: 100%;
+            background: linear-gradient(-90deg, #000, #fff);
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            border-radius:15px;
+            height: 125px;
+            }
+          .me{
+            float: right;
+            border:15px solid;
+            height: 750px;
+            width: 600px;
+            margin: 15px;
+            margin-left: 30px;
+            -moz-border-image: -moz-linear-gradient(top, #ffee00 0%, #0099ff 100%);
+            -webkit-border-image: -webkit-linear-gradient(#ffee00 0%, #0099ff 100%);
+            -webkit-border-image: -moz-linear-gradient(#ffee00 0%, #0099ff 100%);
+            -webkit-border-image: -o-linear-gradient(#ffee00 0%, #0099ff 100%);
+            -webkit-border-image: linear-gradient(#ffee00 0%, #0099ff 100%);
+            border-image: linear-gradient(to bottom, #ffee00 0%, #0099ff 100%);
+            border-image-slice: 2;
+                    }  
+          .normal:hover{
+              color: white !important;
+              text-decoration: none;
+              border:none;
+              padding: 0px;
+              background-image: none;
+
+          }
+          .mee{
+            margin:30px;
+          }
+          #grade{
+            text-align: center;
+            font-weight: bold;
+            padding: 10px;
+            width:40px;
+            background-color:blue;
+            border:gold solid 2px;
+            border-radius:100%;
+            display: block;
+          }
+          .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap:20px 15px;
+          }
+          .box {
+            height: 500px;
+            width: 400px;
+            border:5px solid;
+            -moz-border-image: -moz-linear-gradient(top, #ffee00 0%, #0099ff 100%);
+            -webkit-border-image: -webkit-linear-gradient(#ffee00 0%, #0099ff 100%);
+            -webkit-border-image: -moz-linear-gradient(#ffee00 0%, #0099ff 100%);
+            -webkit-border-image: -o-linear-gradient(#ffee00 0%, #0099ff 100%);
+            -webkit-border-image: linear-gradient(#ffee00 0%, #0099ff 100%);
+            border-image: linear-gradient(to bottom, #ffee00 0%, #0099ff 100%);
+            border-image-slice: 2;
+          }
+          .a {
+            grid-column: 1 / span 2;
+            grid-row: 2;
+            width: 888px;
+            height: 500px;
+            }
