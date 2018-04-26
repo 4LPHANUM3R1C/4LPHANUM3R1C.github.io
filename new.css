@@ -97,7 +97,7 @@
             width: 888px;
             height: 500px;
             }
-           @media only screen and (orientation: landscape) {
+           @media only screen and (orientation: portrait) {
                     .me{
                        display: block;  
                         width: 80%;
