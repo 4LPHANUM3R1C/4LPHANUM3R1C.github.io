@@ -97,9 +97,14 @@
             width: 888px;
             height: 500px;
             }
-          @media only screen and (max-width: 7200px) {
+           @media only screen and (max-width: 1080px) and (orientation: landscape) {
                     .me{
                        display: block;  
-                        allign: left;
+                        width: 80%;
+                        margin:10%;
+                        margin-bottom: 1px;
+                        margin-top: 1px;
+                        height:auto;
+                        float: none;
                     }
           }
