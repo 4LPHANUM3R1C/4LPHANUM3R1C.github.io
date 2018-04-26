@@ -99,6 +99,7 @@
             }
           @media only screen and (max-width: 7200px) {
                     .me{
-                       display: block;       
+                       display: block;  
+                        float: center;
                     }
           }
