@@ -97,7 +97,7 @@
             width: 888px;
             height: 500px;
             }
-           @media only screen and (max-width: 500px) {
+           @media only screen and (orientation: landscape) {
                     .me{
                        display: block;  
                         width: 80%;
