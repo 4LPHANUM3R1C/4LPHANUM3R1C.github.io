@@ -107,4 +107,10 @@
                         height:auto;
                         float: none;
                     }
+                     .a{
+                     visibility: hidden;          
+                     }
+                     .grid{
+                     grid-template columns: 1fr;
+                     }
           }
