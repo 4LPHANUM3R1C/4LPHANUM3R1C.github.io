@@ -126,7 +126,7 @@
                      }
                      /**/
                      .grid{
-                     grid-template-columns: 1;
+                     grid-template-columns: 100%;
                      }
                      /**/
                      .box{
