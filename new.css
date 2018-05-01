@@ -4,11 +4,13 @@
           background: linear-gradient(-90deg, #fff, #000);
           text-shadow:2px 2px #000;
           }
+          /*This changes the background*/
           nav{
               font-size:48px;
               color:white;
               border:black;
           }
+/*this changes the color or certain links*/
           .normal{
               color: white !important;
               text-decoration: none;
@@ -16,12 +18,14 @@
               padding: 0px;
               background-image: none;
           }
+/*this modifies certain links with this class*/
           a{
             color: #ffffff;
             border: 2px solid white;
             padding: 15px;
             text-decoration: none
           }
+/*this is the base link style*/
           a:hover{
             color: #ffffff;
             border: 2px solid white;
@@ -29,6 +33,7 @@
             background-image:url("https://cdn.dribbble.com/users/41276/screenshots/332290/animated-rainbow.gif");
             text-decoration: none
           }
+/*this is the link style while your mouse hovers over it*/
           header{
             width: 100%;
             background: linear-gradient(-90deg, #000, #fff);
@@ -38,6 +43,7 @@
             border-radius:15px;
             height: 125px;
             }
+/*this changes the background of my header*/
           .me{
             float: right;
             border:15px solid;
@@ -53,6 +59,7 @@
             border-image: linear-gradient(to bottom, #ffee00 0%, #0099ff 100%);
             border-image-slice: 2;
                     }  
+/*this gives certain images a gradient border*/
           .normal:hover{
               color: white !important;
               text-decoration: none;
@@ -61,9 +68,11 @@
               background-image: none;
 
           }
+/*this makes some links look like normal text*/
           .mee{
             margin:30px;
           }
+/*this gives my about me paragraph a small margin*/
           #grade{
             text-align: center;
             font-weight: bold;
@@ -74,11 +83,13 @@
             border-radius:100%;
             display: block;
           }
+/*this gives my */
           .grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap:20px 15px;
           }
+/**/
           .box {
             height: 500px;
             width: 400px;
@@ -91,12 +102,14 @@
             border-image: linear-gradient(to bottom, #ffee00 0%, #0099ff 100%);
             border-image-slice: 2;
           }
+/**/
           .a {
             grid-column: 1 / span 2;
             grid-row: 2;
             width: 888px;
             height: 500px;
             }
+/**/
            @media only screen and (orientation: portrait) {
                     .me{
                        display: block;  
@@ -107,14 +120,18 @@
                         height:auto;
                         float: none;
                     }
+                     /**/
                      .a{
                      visibility: hidden;          
                      }
+                     /**/
                      .grid{
                      grid-template-columns: 1fr;
                      }
+                     /**/
                      .box{
-                     width: 80%;
+                     width: 400px;
                      height:auto
                      }
           }
+/**/
