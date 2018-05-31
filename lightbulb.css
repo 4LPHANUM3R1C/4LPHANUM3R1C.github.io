@@ -11,5 +11,5 @@ img{
 }
 img:active{
     opacity: 1;
-    background: radial-gradient( #fff 75%, #000 25%);
+    background: radial-gradient( #fff 25%, #000 75%);
 }
