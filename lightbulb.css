@@ -13,3 +13,7 @@ img:active{
     opacity: 1;
     background: radial-gradient( #fff 25%, #000 75%);
 }
+a{
+    color: white;
+    text-decoration: none;
+}
