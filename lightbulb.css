@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+img{
+    opacity: 0.15;
+    width: 50%;
+    height: 50%;
+    margin-left:25%;
+    margin-right: 25%;
+    border-radius: 100%;
+}
+img:active{
+    opacity: 1;
+    background: radial-gradient( #fff 75%, #000 25%);
+}
